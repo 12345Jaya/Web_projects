@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* start of header */
+.header_div{
+  display:flex;
+}
+
+.logo{
+  border-radius:50%;
+  width:40px;
+  height:40px;
+}
+
+.logo_div{
+  display:flex;
+  background-color: aqua;
+  align-items:center;   
+  justify-content: start;
+  padding-left: 20px;
+  width:20%;
+}
+
+.list_div{
+  background-color: bisque;
+  display:flex;
+  width:60%;
+  justify-content: space-evenly;
+  align-items:center;
+}
+
+.list_item{
+  list-style-type:none;
+}
+
+.login_div{
+  width:20%;
+  background-color: darkgray;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* end of header */
+
+/* main section */
+.main_Section_div{
+  background-color:rgb(237, 193, 193);
+  width: 500px;
+  height: 1500px;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+}
+
+.opening_div{
+  background-image: url('https://wallpapers.com/images/hd/dark-theme-background-z65tfo4y87nhrxzf.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  color:aliceblue;
+  font-weight:bold;
+  font-size: x-large;
+}
+
+.slider_div{
+  display: flex;
+  height: 400px;
+  justify-content: space-evenly;
+}
+
+.slide_div{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe2RrM0KGMHrAdfQFSpaGTY3i5zSlpGtcktQ&s');
+  background-size:cover;
+  width: 28%;
+  height: 400px;
+  color:white;
+  font-weight: bolder;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+  margin: 30px;
+}
+
+/* end of main */
+
+/* login page */
+.login_div{
+  background-color: rgb(205, 240, 228);
+  margin:20px;
+  width:300px;
+  height:400px;
+  display:flex;
+  flex-direction:column;
+
+}
+
+.login_name{
+  width:300px;
+  height:100px;
+}
+
+.main_login{
+  width:300px;
+  height:100px;
+}
+
+.login_button{
+  width:300px;
+  height:100px;
+}
